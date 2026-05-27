@@ -1,4 +1,9 @@
 
+:root{
+    --text: #ffffff;
+    --darkred: #7f2020;
+    --lorange:#dda15e;
+}
 *{
     margin: 0;
     padding: 0;
@@ -9,13 +14,68 @@ nav{
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #a13c0c;
+    background-color: #250966;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2px;
 }
 .nav1{
     font-family: "Rouge Script", cursive;
     margin: 20px;
     font-size: 30px;
+    color: white;
 }
+.nav2{
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
+    display: flex;
+    margin: 20px;
+}
+.navItens{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 4px;
+    opacity: 0.8;
+    transition: all 200ms linear;
+    font-weight: 400;
+    font-family: "Montserrat", serif; 
+}
+section{
+    min-height: 100vh;
+    height: auto;
+}
+ #s1 {
+    background-image: url('../images/images2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ #s1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color:var(--text);
+ }
+ #s2 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 50px;
+ }
+ #s2 p{
+    margin: 60px;
+ }
